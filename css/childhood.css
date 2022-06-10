@@ -62,7 +62,12 @@
 }
 
 #rlc-horizontal .arrow .rlc-arrow {
-  width: 10em;
+  width: 15em;
+  margin: 1em 4.5em 0 auto;
+}
+
+#rlc-horizontal .arrow .rlc-copygroup .rlc-title {
+  margin: 1em auto 0 4.5em;
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-title {
