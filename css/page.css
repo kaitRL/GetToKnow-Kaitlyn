@@ -54,6 +54,21 @@ h6,
   color: #F7CE3E;
 }
 
+.box {
+  height: 1.250em;
+  background: rgba(197,193,192, 0.5);
+  position: fixed;
+  left: 0;
+}
+
+.box.top {
+  top: 0;
+}
+
+.box.bottom {
+  bottom: 0;
+}
+
 .rlc-creative_v3 {
   background: #C5C1C0;
   overflow: unset;
@@ -64,6 +79,7 @@ h6,
   background-color: rgba(26, 41, 48, 0.5);
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 100;
 }
