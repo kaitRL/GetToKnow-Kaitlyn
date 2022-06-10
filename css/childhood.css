@@ -38,14 +38,15 @@
 }
 
 #rlc-horizontal .rlc-copygroup {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   border-radius: 20px;
   text-align: left;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+  padding: 5em;
 }
 
 #rlc-horizontal .even .rlc-copygroup {
@@ -86,6 +87,20 @@
 
 #rlc-horizontal .rlc-copygroup .rlc-pic-wrapper {
   padding-top: 2.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#rlc-horizontal .rlc-copygroup .rlc-pic-wrapper.rlc-in-in {
+  padding-top: 2.5em;
+  display: flex;
+  display: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#rlc-horizontal .rlc-copygroup .rlc-inner-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
