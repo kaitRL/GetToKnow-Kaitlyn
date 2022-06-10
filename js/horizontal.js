@@ -12,7 +12,7 @@ const init = () => {
         pin: true,
         scrub: 0.1,
         //snap: directionalSnap(1 / (sections.length - 1)),
-        end: "+=3000"
+        end: "+=3500"
       }
     });
 
