@@ -217,17 +217,16 @@ h6,
   color: #465C8B;
 }
 
-#rlc-intro .rlc-col-cg .rlc-title:hover {
-  font-size: 4.00em;
-  color: #93C178;
-}
-
 #rlc-intro .rlc-col-cg .rlc-sub {
   font-size: 5em;
   text-transform: uppercase;
   margin: 0 0 0 auto;
   text-align: right;
   color: #465C8B;
+}
+
+#rlc-intro .rlc-col-cg .rlc-sub:hover {
+  color: #93C178;
 }
 
 #rlc-intro .rlc-col-img {
