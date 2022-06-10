@@ -76,7 +76,7 @@
 
 #rlc-horizontal .arrow .rlc-copygroup .rlc-title {
   margin: 1em auto 0 2.5em;
-}
+}#rlc-horizontal .rlc-copygroup .rlc-inner-wrapper.rlc-iw2
 
 #rlc-horizontal .rlc-copygroup .rlc-title {
   font-size: 3em;
@@ -115,6 +115,10 @@
 
 #rlc-horizontal .four .rlc-copygroup .rlc-inner-wrapper.rlc-iw2 {
   margin-top: -12em;
+}
+
+#rlc-horizontal .eight .rlc-copygroup .rlc-inner-wrapper.rlc-iw2 {
+  margin-top: -2em;
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-pic-me {
