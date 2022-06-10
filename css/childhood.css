@@ -49,11 +49,11 @@
 }
 
 #rlc-horizontal .even .rlc-copygroup {
-  background: rgba(26, 41, 48, 0.45);
+  background: rgba(70, 92, 139, 0.45);
 }
 
 #rlc-horizontal .odd .rlc-copygroup {
-  background: rgba(10, 22, 18, 0.45);
+  background: rgba(147, 193, 120, 0.45);
 }
 
 #rlc-horizontal .arrow .rlc-copygroup {
