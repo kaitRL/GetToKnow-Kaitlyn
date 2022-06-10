@@ -53,11 +53,27 @@ h6,
   background: #C5C1C0;
 }
 
-.blob {
-  height: 12.500em;
-  width: 12.500em;
+#rlc-intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.rlc-pic-me {
+#rlc-intro .rlc-col-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#rlc-intro .rlc-imagery {
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+
+#rlc-intro .rlc-pic-me {
   width: 10em;
 }
