@@ -38,15 +38,14 @@
 }
 
 #rlc-horizontal .rlc-copygroup {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   border-radius: 20px;
   text-align: left;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
-  padding: 5em;
 }
 
 #rlc-horizontal .even .rlc-copygroup {
