@@ -74,7 +74,7 @@ h6,
   font-size: 4.00em;
 }
 
-#rlc-intro .rlc-col-cg .rlc-dek {
+#rlc-intro .rlc-col-cg .rlc-sub {
   font-size: 5em;
   text-transform: uppercase;
   margin: 0 0 0 auto;
@@ -89,10 +89,14 @@ h6,
   margin: 0 auto;
 }
 
+#rlc-intro .rlc-imagery .rlc-image {
+  height: auto;
+}
+
 #rlc-intro .rlc-pic-me {
-  width: 30%;
+  width: 34%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 46%;
   transform: translate(-50%, -50%);
 }
