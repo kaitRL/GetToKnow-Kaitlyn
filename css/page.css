@@ -128,8 +128,13 @@ h6,
   width: 60%;
 }
 
+#rlc-intro .rlc-col-img .rlc-block {
+  padding-right: 2.5em;
+}
+
 #rlc-intro .rlc-imagery {
   margin: 0 auto;
+  width: 80%
 }
 
 #rlc-intro .rlc-imagery .rlc-image {
@@ -140,6 +145,6 @@ h6,
   width: 34%;
   position: absolute;
   top: 50%;
-  left: 46%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
