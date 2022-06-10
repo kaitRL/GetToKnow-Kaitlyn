@@ -140,11 +140,11 @@ h6,
   color: #FFFFFF;
 }
 
-.light-blue {
+.grey {
   color: #DFDCE3;
 }
 
-.middle-blue {
+.blue {
   color: #465C8B;
 }
 
@@ -157,7 +157,7 @@ h6,
 }
 
 .rlc-creative_v3 {
-  background: #46344E;
+  background: #DFDCE3;
   overflow: unset;
 }
 
@@ -165,7 +165,7 @@ h6,
 
 #rlc-navbar {
   overflow: hidden;
-  background-color: rgba(157, 141, 143, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 20px;
   left: 0;
@@ -214,12 +214,12 @@ h6,
 
 #rlc-intro .rlc-col-cg .rlc-title {
   font-size: 4.00em;
-  color: #FFFFFF;
+  color: #465C8B;
 }
 
 #rlc-intro .rlc-col-cg .rlc-title:hover {
   font-size: 4.00em;
-  color: #FFFFFF;
+  color: #93C178;
 }
 
 #rlc-intro .rlc-col-cg .rlc-sub {
@@ -227,7 +227,7 @@ h6,
   text-transform: uppercase;
   margin: 0 0 0 auto;
   text-align: right;
-  color: #1A2930;
+  color: #465C8B;
 }
 
 #rlc-intro .rlc-col-img {
