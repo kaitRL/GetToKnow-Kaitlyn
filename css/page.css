@@ -62,8 +62,27 @@ h6,
   align-items: center;
 }
 
+#rlc-intro .rlc-col-cg {
+  width: 40%;
+}
+
+#rlc-intro .rlc-col-cg .rlc-copygroup {
+  padding-left: 2.5em;
+}
+
+#rlc-intro .rlc-col-cg .rlc-title {
+  font-size: 4.00em;
+}
+
+#rlc-intro .rlc-col-cg .rlc-dek {
+  font-size: 5em;
+  text-transform: uppercase;
+  margin: 0 0 0 auto;
+  text-align: right;
+}
+
 #rlc-intro .rlc-col-img {
-  width: 50%;
+  width: 60%;
 }
 
 #rlc-intro .rlc-imagery {
@@ -75,5 +94,5 @@ h6,
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
