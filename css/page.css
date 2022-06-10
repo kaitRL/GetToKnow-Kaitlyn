@@ -54,13 +54,22 @@ h6,
   overflow: unset;
 }
 
-.rlc-content {
-  min-height: calc(100vh - 40px);
-  position: relative;
-  background: var(--bg);
-  overflow: hidden;
-  transition: background 1s cubic-bezier(.165, .84, .44, 1);
-  border: 1px solid white;
+.rlc-border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 2.500em solid white;
+}
+
+.rlc-border .rlc-border-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 2.500em solid rgba(197,193,192,0.5);
 }
 
 #rlc-navbar {
