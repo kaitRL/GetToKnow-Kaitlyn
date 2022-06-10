@@ -18,19 +18,19 @@
   box-sizing: border-box;
 }
 
-#rlc-horizontal .intro .copygroup {
+#rlc-horizontal .intro .rlc-copygroup {
   width: 80vw;
   height: 80vh;
 }
 
-#rlc-horizontal .intro .copygroup .rlc-pic-me {
+#rlc-horizontal .intro .rlc-copygroup .rlc-pic-me {
   width: 20%;
 }
 
-#rlc-horizontal .intro .copygroup .rlc-logo {
+#rlc-horizontal .intro .rlc-copygroup .rlc-logo {
   width: 10%;
 }
 
-#rlc-horizontal .one .copygroup .rlc-pic-me {
+#rlc-horizontal .one .rlc-copygroup .rlc-pic-me {
   width: 20%;
 }
