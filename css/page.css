@@ -64,7 +64,6 @@ h6,
 }
 
 #rlc-navbar .rlc-in {
-  width: 100%;
   padding: 1em 4em;
   display: flex;
   flex-direction: row;
@@ -74,12 +73,15 @@ h6,
 }
 
 #rlc-navbar .rlc-nav {
+  font-weight: 400;
   color: #C5C1C0;
-  text-decoration: none;
+  text-decoration: color 250ms ease-in-out;
 }
 
 #rlc-navbar .rlc-nav:hover {
+  font-weight: 700;
   color: #F7CE3E;
+  text-decoration: color 250ms ease-in-out;
 }
 
 
