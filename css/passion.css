@@ -1,0 +1,57 @@
+
+#rlc-passions img {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+}
+
+#rlc-passions ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+#rlc-passions li {
+  flex-shrink: 0;
+  width: clamp(500px, 60vw, 800px);
+  padding-right: 1rem;
+}
+
+#rlc-passions .df {
+  display: flex
+}
+
+#rlc-passions .aic {
+  align-items: center
+}
+
+#rlc-passions .jcc {
+  justify-content: center
+}
+
+#rlc-passions .loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  color: white;
+}
+
+#rlc-passions .demo-wrapper {
+  overflow-x: hidden;
+}
+
+#rlc-passions .wrapper {
+  display: flex;
+}
+
+#rlc-passions .demo-gallery:not(.last) {
+  padding-bottom: 1rem;
+}
+
+#rlc-passions .demo-text .text {
+  font-size: clamp(8rem, 15vw, 16rem);
+  line-height: 1;
+  font-weight: 900;
+}
