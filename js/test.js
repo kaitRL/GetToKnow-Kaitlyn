@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 let sections = gsap.utils.toArray(".panel");
 
 gsap.to(sections, {
@@ -8,6 +10,7 @@ gsap.to(sections, {
     pin: true,
     scrub: 1,
     snap: 1 / (sections.length - 1),
-    end: () => "+=" + document.querySelector(".container").offsetWidth
+    // base vertical scrolling on how wide the container is so it feels more natural.
+    end: "+=3500",
   }
 });

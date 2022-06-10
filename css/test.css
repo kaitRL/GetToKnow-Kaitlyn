@@ -1,39 +1,12 @@
-html {
-  overflow-y: scroll;
-  height: 100%;
-  -webkit-overflow-scrolling: touch;
-  overflow-scrolling: touch;
-}
-
 body {
-  overflow-y: visible;
-  position: relative;
-  height: unset;
-}
-
-html, body {
-  overflow-x: hidden;
-  margin: 0;
+  overscroll-behavior: none;
+  height: 100vh;
 }
 
 .container {
-  width: 400%;
-  height: 100vh;
+  overscroll-behavior: none;
+  width: 600%;
+  height: 100%;
   display: flex;
   flex-wrap: nowrap;
-}
-
-.firstContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: yellow;
-}
-
-.lastContainer {
-  display: flex;
-  height: 100vh;
-  background: yellow;
 }
