@@ -58,6 +58,7 @@
 
 #rlc-horizontal .arrow .rlc-copygroup {
   background: rgba(0, 0, 0, 0);
+  text-align: center;
 }
 
 #rlc-horizontal .arrow .rlc-arrow {
