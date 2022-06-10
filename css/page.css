@@ -51,6 +51,7 @@ h6,
 
 .rlc-creative_v3 {
   background: #C5C1C0;
+  overflow: unset;
 }
 
 #rlc-navbar {
