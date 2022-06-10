@@ -1,6 +1,6 @@
 #rlc-horizontal .container {
   overscroll-behavior: none;
-  width: 600%;
+  width: 1200%;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
