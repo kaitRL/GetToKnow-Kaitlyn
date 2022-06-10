@@ -52,6 +52,10 @@ h6,
 .rlc-creative_v3 {
   background: #C5C1C0;
   overflow: unset;
+  min-height: calc(100vh - 40px);
+  position: relative;
+  background: var(--bg);
+  transition: background 1s cubic-bezier(.165, .84, .44, 1);
 }
 
 #rlc-navbar {
@@ -84,7 +88,6 @@ h6,
   color: #F7CE3E;
   transform: color 250ms ease-in-out;
 }
-
 
 #rlc-intro {
   height: 100vh;
