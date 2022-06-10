@@ -73,7 +73,7 @@ const scrollHandler = function() {
   }
 }
 
-function init() {
+function init3() {
   if (document.readyState === 'complete') {
     handler();
   }
@@ -90,4 +90,4 @@ function init() {
   }
   handler();
 }
-init();
+init3();
