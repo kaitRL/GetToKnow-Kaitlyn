@@ -7,8 +7,8 @@ revealContainers.forEach((container) => {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: container,
-      start: "top center",
-      toggleActions: "restart none none reset"
+      start: "center center",
+      toggleActions: "restart none none none"
     }
   });
 
