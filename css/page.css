@@ -1,3 +1,8 @@
+body {
+  padding: 1.250em;
+  background: rgba(197,193,192, 0.5);
+}
+
 body,
 p,
 .rlc-creative_v3 .rlc-dek,
@@ -52,10 +57,6 @@ h6,
 .rlc-creative_v3 {
   background: #C5C1C0;
   overflow: unset;
-  min-height: calc(100vh - 40px);
-  position: relative;
-  background: var(--bg);
-  transition: background 1s cubic-bezier(.165, .84, .44, 1);
 }
 
 #rlc-navbar {
