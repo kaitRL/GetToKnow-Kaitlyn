@@ -4,12 +4,13 @@
 
 #rlc-passions .rlc-pic-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 #rlc-passions .rlc-pic-me {
-  width: 33.33%;
+  width: 25%;
   margin: 0.5em;
 }
 
@@ -19,12 +20,13 @@
 
 #rlc-motivates .rlc-pic-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 #rlc-motivates .rlc-pic-me {
-  width: 33.33%;
+  width: 25%;
   margin: 0.5em;
 }
 
@@ -34,11 +36,12 @@
 
 #rlc-hidden .rlc-pic-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 #rlc-hidden .rlc-pic-me {
-  width: 33.33%;
+  width: 25%;
   margin: 0.5em;
 }
