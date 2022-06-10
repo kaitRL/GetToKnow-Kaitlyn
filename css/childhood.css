@@ -49,11 +49,11 @@
 }
 
 #rlc-horizontal .even .rlc-copygroup {
-  background: rgba(26, 41, 48, 0.25);
+  background: rgba(26, 41, 48, 0.45);
 }
 
 #rlc-horizontal .odd .rlc-copygroup {
-  background: rgba(10, 22, 18, 0.25);
+  background: rgba(10, 22, 18, 0.45);
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-title {
@@ -86,6 +86,7 @@
 
 #rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
