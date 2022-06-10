@@ -105,6 +105,11 @@ h6,
   color: #0A1612;
 }
 
+#rlc-intro .rlc-col-cg .rlc-title:hover {
+  font-size: 4.00em;
+  color: #0A1612;
+}
+
 #rlc-intro .rlc-col-cg .rlc-sub {
   font-size: 5em;
   text-transform: uppercase;
