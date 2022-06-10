@@ -1,4 +1,9 @@
-gsap.registerPlugin(ScrollTrigger);
+const { gsap } = require("gsap/dist/gsap");
+const { ScrollTrigger } = require("gsap/dist/ScrollTrigger");
+const { ScrollToPlugin } = require("gsap/dist/ScrollToPlugin");
+const { Draggable } = require("gsap/dist/Draggable");
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, Draggable);
 
 let sections = gsap.utils.toArray(".panel");
 
