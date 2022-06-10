@@ -1,3 +1,91 @@
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+main:focus {
+  outline: none
+}
+
+html {
+  -webkit-font-smoothing: antialiased
+}
+
+html:after,
+html:before {
+  content: "";
+  will-change: top left;
+  backface-visibility: hidden;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 20px;
+  background: #fff;
+  z-index: 21000
+}
+
+html:before {
+  left: 0
+}
+
+html:after {
+  right: 0
+}
+
+body {
+  background: rgba(197, 193, 192, 0.5);
+  min-height: calc(100vh - 40px);
+  position: relative;
+  padding: 20px
+}
+
+body:after,
+body:before {
+  content: "";
+  will-change: top left;
+  backface-visibility: hidden;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: #fff;
+  z-index: 20000
+}
+
+body:before {
+  top: 0
+}
+
+body:after {
+  bottom: 0
+}
+
+body.lock-scroll,
+html.lock-scroll {
+  overflow: hidden
+}
+
+body:after, body:before {
+  content: "";
+  will-change: top left;
+  backface-visibility: hidden;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: rgba(197, 193, 192, 1);
+  z-index: 20000;
+}
+
+.rlc-page-wrapper {
+    min-height: calc(100vh - 40px);
+    position: relative;
+    background: rgba(197, 193, 192, 0.5);
+    overflow: hidden;
+    transition: background 1s cubic-bezier(.165, .84, .44, 1)
+}
+
 body,
 p,
 .rlc-creative_v3 .rlc-dek,
@@ -54,17 +142,7 @@ h6,
   overflow: unset;
 }
 
-.rlc-page-wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 700; /* must be the higher than all other elements */
-	overflow: auto; /* moves scrollbars inside border */
-	background: #fff;
-	border: 5px solid #ff9900;
-}
+.rlc-page-wrapper {}
 
 #rlc-navbar {
   overflow: hidden;
