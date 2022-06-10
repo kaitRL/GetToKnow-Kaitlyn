@@ -60,6 +60,11 @@ h6,
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
+}
+
+#rlc-navbar .rlc-in {
+  width: 100%;
   padding: 1em 4em;
   display: flex;
   flex-direction: row;
@@ -70,6 +75,7 @@ h6,
 
 #rlc-navbar .rlc-nav {
   color: #C5C1C0;
+  text-decoration: none;
 }
 
 #rlc-navbar .rlc-nav:hover {
