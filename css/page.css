@@ -21,7 +21,7 @@ html:before {
   top: 0;
   height: 100%;
   width: 20px;
-  background: #9D8D8F;
+  background: #FFFFFF;
   z-index: 21000
 }
 
@@ -34,7 +34,7 @@ html:after {
 }
 
 body {
-  background: #9D8D8F;
+  background: #FFFFFF;
   min-height: calc(100vh - 40px);
   position: relative;
   padding: 20px;
@@ -51,7 +51,7 @@ body:before {
   left: 0;
   width: 100%;
   height: 20px;
-  background: #9D8D8F;
+  background: #FFFFFF;
   z-index: 20000
 }
 
@@ -77,14 +77,14 @@ body:after, body:before {
   left: 0;
   width: 100%;
   height: 20px;
-  background: #9D8D8F;
+  background: #FFFFFF;
   z-index: 20000;
 }
 
 .rlc-page-wrapper {
   min-height: calc(100vh - 40px);
   position: relative;
-  background: #9B786F;
+  background: #DFDCE3;
   overflow: hidden;
   transition: background 1s cubic-bezier(.165, .84, .44, 1)
 }
@@ -136,24 +136,24 @@ h6,
   letter-spacing: 0.231em;
 }
 
-.brown {
-  color: #9B786F;
+.white {
+  color: #FFFFFF;
 }
 
-.grey {
-  color: #9D8D8F;
+.light-blue {
+  color: #DFDCE3;
 }
 
-.dark-grey {
-  color: #5A5560;
+.middle-blue {
+  color: #465C8B;
 }
 
-.violet {
-  color: #FAED26;
+.green {
+  color: #93C178;
 }
 
 .yellow {
-  color: #FAED26;
+  color: #F7EF6A;
 }
 
 .rlc-creative_v3 {
@@ -191,7 +191,7 @@ h6,
 
 #rlc-navbar .rlc-nav:hover {
   font-weight: 700;
-  color: #FAED26;
+  color: #F7EF6A;
   transform: color 250ms ease-in-out;
 }
 
@@ -214,12 +214,12 @@ h6,
 
 #rlc-intro .rlc-col-cg .rlc-title {
   font-size: 4.00em;
-  color: #9D8D8F;
+  color: #FFFFFF;
 }
 
 #rlc-intro .rlc-col-cg .rlc-title:hover {
   font-size: 4.00em;
-  color: #9D8D8F;
+  color: #FFFFFF;
 }
 
 #rlc-intro .rlc-col-cg .rlc-sub {
