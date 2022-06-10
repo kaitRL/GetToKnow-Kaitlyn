@@ -132,7 +132,7 @@ header {
 }
 
 /* SCROLL DOWN */
-.scroll-down {
+.scroll-down { 
   position: absolute;
   bottom: 30px;
   left: 50%;
