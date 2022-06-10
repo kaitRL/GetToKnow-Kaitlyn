@@ -60,18 +60,19 @@
 }
 
 #rlc-horizontal .arrow .rlc-copygroup {
+  width: 50vw;
   background: rgba(0, 0, 0, 0);
   text-align: center;
 }
 
 #rlc-horizontal .arrow .rlc-arrow {
   width: 15em;
-  margin: 1em 4.5em 0 auto;
+  margin: 1em 0 0 auto;
   color: #465c8b;
 }
 
 #rlc-horizontal .arrow .rlc-copygroup .rlc-title {
-  margin: 1em auto 0 4.5em;
+  margin: 1em auto 0 2.5em;
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-title {
