@@ -20,11 +20,11 @@
 }
 
 #rlc-horizontal .panel.even {
-  padding-bottom: 2.5em;
+  padding-bottom: 5em;
 }
 
 #rlc-horizontal .panel.odd {
-  padding-top: 2.5em;
+  padding-top: 5em;
 }
 
 #rlc-horizontal .reveal {
