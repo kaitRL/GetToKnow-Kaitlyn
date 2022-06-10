@@ -19,6 +19,15 @@
   box-sizing: border-box;
 }
 
+#rlc-horizontal .reveal {
+  visibility: hidden;
+  position: relative;
+  width: 20%;
+  height: auto;
+  max-width: 500px;
+  overflow: hidden;
+}
+
 #rlc-horizontal .intro .rlc-copygroup {
   width: 75vw;
   height: 60vh;
