@@ -34,7 +34,11 @@
   background: rgba(26, 41, 48, 0.25);
   border-radius: 20px;
   padding: 5em;
-  text-align: left
+  text-align: left;
+  display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+justify-content: center;
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-title {
