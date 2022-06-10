@@ -7,11 +7,14 @@ revealContainers.forEach((container) => {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: container,
+      start: "top center",
       toggleActions: "restart none none reset"
     }
   });
 
-  tl.set(container, { autoAlpha: 1 });
+  tl.set(container, {
+    autoAlpha: 1
+  });
   tl.from(container, 1.5, {
     xPercent: -100,
     ease: Power2.out
