@@ -46,6 +46,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+  padding: 2em;
 }
 
 #rlc-horizontal .even .rlc-copygroup {
