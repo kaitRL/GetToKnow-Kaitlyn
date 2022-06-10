@@ -28,7 +28,7 @@
   overflow: hidden;
 }
 
-#rlc-horizontal .intro .rlc-copygroup {
+#rlc-horizontal .rlc-copygroup {
   width: 75vw;
   height: 60vh;
   background: rgba(26, 41, 48, 0.25);
@@ -36,14 +36,10 @@
   padding: 5em;
 }
 
-#rlc-horizontal .intro .rlc-copygroup .rlc-pic-me {
+#rlc-horizontal .rlc-copygroup .rlc-pic-me {
   width: 20%;
 }
 
 #rlc-horizontal .intro .rlc-copygroup .rlc-logo {
   width: 10%;
-}
-
-#rlc-horizontal .one .rlc-copygroup .rlc-pic-me {
-  width: 20%;
 }
