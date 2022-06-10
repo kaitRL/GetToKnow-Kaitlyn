@@ -46,7 +46,11 @@
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
-  padding: 2em;
+  padding: 0 2em;
+}
+
+#rlc-horizontal .rlc-copygroup .rlc-in {
+  padding: 0 2em;
 }
 
 #rlc-horizontal .even .rlc-copygroup {
@@ -109,10 +113,18 @@
   margin-top: -5em;
 }
 
+#rlc-horizontal .four .rlc-copygroup .rlc-inner-wrapper.rlc-iw2 {
+  margin-top: -12em;
+}
+
 #rlc-horizontal .rlc-copygroup .rlc-pic-me {
   width: 16em;
   border-radius: 20px;
   margin: 0.25em;
+}
+
+#rlc-horizontal .three .rlc-copygroup .rlc-pic-me {
+  width: 11em;
 }
 
 #rlc-horizontal .intro .rlc-copygroup .rlc-logo {
