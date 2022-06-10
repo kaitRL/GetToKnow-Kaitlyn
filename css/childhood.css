@@ -48,11 +48,11 @@
   justify-content: center;
 }
 
-#rlc-horizontal .rlc-copygroup.even {
+#rlc-horizontal .even .rlc-copygroup {
   background: rgba(26, 41, 48, 0.25);
 }
 
-#rlc-horizontal .rlc-copygroup.odd {
+#rlc-horizontal .odd .rlc-copygroup {
   background: rgba(10, 22, 18, 0.25);
 }
 
