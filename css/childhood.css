@@ -56,6 +56,10 @@
   background: rgba(10, 22, 18, 0.45);
 }
 
+#rlc-horizontal .arrow .rlc-copygroup {
+  background: rgba(0, 0, 0, 0);
+}
+
 #rlc-horizontal .rlc-copygroup .rlc-title {
   font-size: 3em;
   font-style: oblique;
