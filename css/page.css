@@ -1,6 +1,13 @@
-body {
+body,
+p,
+.rlc-creative_v3 .rlc-dek,
+.rlc-creative_v3 .rlc-sub {
   font-family: 'Khula', sans-serif;
   font-weight: 400;
+  font-size: 1em;
+  line-height: 1.200em;
+  letter-spacing: 0.125em;
+  margin: 0 auto;
 }
 
 h1,
@@ -8,17 +15,22 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.rlc-creative_v3 .rlc-title {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
+  font-size: 2em;
+  line-height: 1.200em;
+  letter-spacing: 0.125em;
+  margin: 0 auto;
 }
 
 .button {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 0.813em;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.231em;
 }
 
 .silver {
@@ -35,4 +47,8 @@ h6 {
 
 .marigold {
   color: #F7CE3E;
+}
+
+.rlc-creative_v3 {
+  background: #C5C1C0;
 }
