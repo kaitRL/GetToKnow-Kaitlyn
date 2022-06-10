@@ -2,13 +2,13 @@
   padding: 2.5em 0;
 }
 
-#rlc-passions .rlc-copygroup .rlc-pic-wrapper {
+#rlc-passions .rlc-pic-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#rlc-passions .rlc-copygroup .rlc-pic-me {
+#rlc-passions .rlc-pic-me {
   width: 33.33%;
   margin: 0.5em;
 }
@@ -17,13 +17,13 @@
   padding: 2.5em 0;
 }
 
-#rlc-motivates .rlc-copygroup .rlc-pic-wrapper {
+#rlc-motivates .rlc-pic-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#rlc-motivates .rlc-copygroup .rlc-pic-me {
+#rlc-motivates .rlc-pic-me {
   width: 33.33%;
   margin: 0.5em;
 }
@@ -32,13 +32,13 @@
   padding: 2.5em 0;
 }
 
-#rlc-hidden .rlc-copygroup .rlc-pic-wrapper {
+#rlc-hidden .rlc-pic-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#rlc-hidden .rlc-copygroup .rlc-pic-me {
+#rlc-hidden .rlc-pic-me {
   width: 33.33%;
   margin: 0.5em;
 }
