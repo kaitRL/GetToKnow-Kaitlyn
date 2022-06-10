@@ -54,22 +54,16 @@ h6,
   overflow: unset;
 }
 
-.rlc-border {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  border: 2.500em solid white;
-}
-
-.rlc-border .rlc-border-in {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  border: 2.500em solid rgba(197,193,192,0.5);
+.rlc-page-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 700; /* must be the higher than all other elements */
+	overflow: auto; /* moves scrollbars inside border */
+	background: #fff;
+	border: 5px solid #ff9900;
 }
 
 #rlc-navbar {
