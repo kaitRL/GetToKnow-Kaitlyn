@@ -94,7 +94,7 @@
 #rlc-horizontal .rlc-copygroup .rlc-pic-wrapper.rlc-in-in {
   padding-top: 2.5em;
   display: flex;
-  display: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -103,6 +103,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+#rlc-horizontal .rlc-copygroup .rlc-inner-wrapper.rlc-iw2 {
+  margin-top: -5em;
 }
 
 #rlc-horizontal .rlc-copygroup .rlc-pic-me {
@@ -114,16 +118,4 @@
 #rlc-horizontal .intro .rlc-copygroup .rlc-logo {
   width: 7em;
   margin: 0 auto 1em;
-}
-
-#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper .rlc-pm4,
-#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper .rlc-pm5 {
-  margin-top: -2em;
 }
