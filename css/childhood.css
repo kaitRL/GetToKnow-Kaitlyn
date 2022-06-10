@@ -1,6 +1,6 @@
 #rlc-horizontal .container {
   overscroll-behavior: none;
-  width: 700%;
+  width: 600%;
   height: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -49,11 +49,11 @@
 }
 
 #rlc-horizontal .even .rlc-copygroup {
-  background: rgba(70, 92, 139, 0.45);
+  background: rgba(147, 193, 120, 0.45);
 }
 
 #rlc-horizontal .odd .rlc-copygroup {
-  background: rgba(147, 193, 120, 0.45);
+  background: rgba(70, 92, 139, 0.45);
 }
 
 #rlc-horizontal .arrow .rlc-copygroup {
@@ -64,6 +64,7 @@
 #rlc-horizontal .arrow .rlc-arrow {
   width: 15em;
   margin: 1em 4.5em 0 auto;
+  color: #465c8b;
 }
 
 #rlc-horizontal .arrow .rlc-copygroup .rlc-title {
