@@ -1,5 +1,3 @@
-gsap.registerPlugin(ScrollTrigger);
-
 let sections = gsap.utils.toArray(".panel");
 
 gsap.to(sections, {
