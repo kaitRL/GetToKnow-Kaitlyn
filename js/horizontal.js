@@ -26,7 +26,7 @@ const init = () => {
       scrollTrigger: {
         trigger: container,
         containerAnimation: scrollTween,
-        start: "center 60%",
+        start: "center 80%",
         toggleActions: "restart none none reset"
       }
     });
