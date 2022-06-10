@@ -189,9 +189,10 @@ h6,
   transform: color 250ms ease-in-out;
 }
 
-#rlc-navbar .rlc-nav:hover {
+#rlc-navbar .rlc-nav.rlc-nav_cta-active {
   font-weight: 700;
   color: #93C178;
+  text-decoration: underline;
   transform: color 250ms ease-in-out;
 }
 
