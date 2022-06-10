@@ -75,13 +75,14 @@ h6,
 #rlc-navbar .rlc-nav {
   font-weight: 400;
   color: #C5C1C0;
-  text-decoration: color 250ms ease-in-out;
+  text-decoration: none;
+  transform: color 250ms ease-in-out;
 }
 
 #rlc-navbar .rlc-nav:hover {
   font-weight: 700;
   color: #F7CE3E;
-  text-decoration: color 250ms ease-in-out;
+  transform: color 250ms ease-in-out;
 }
 
 
