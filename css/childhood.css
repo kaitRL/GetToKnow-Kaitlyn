@@ -83,3 +83,14 @@
   width: 7em;
   margin: 0 auto 1em;
 }
+
+#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper .rlc-pm4,
+#rlc-horizontal .two .rlc-copygroup .rlc-pic-wrapper .rlc-pm5 {
+  margin-top: -2em;
+}
