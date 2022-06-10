@@ -53,6 +53,29 @@ h6,
   background: #C5C1C0;
 }
 
+#rlc-navbar {
+  overflow: hidden;
+  background-color: rgba(26, 41, 48, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1em 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#rlc-navbar .rlc-nav {
+  color: #C5C1C0;
+}
+
+#rlc-navbar .rlc-nav:hover {
+  color: #F7CE3E;
+}
+
+
 #rlc-intro {
   height: 100vh;
   display: flex;
@@ -72,6 +95,7 @@ h6,
 
 #rlc-intro .rlc-col-cg .rlc-title {
   font-size: 4.00em;
+  color: #0A1612;
 }
 
 #rlc-intro .rlc-col-cg .rlc-sub {
@@ -79,6 +103,7 @@ h6,
   text-transform: uppercase;
   margin: 0 0 0 auto;
   text-align: right;
+  color: #1A2930;
 }
 
 #rlc-intro .rlc-col-img {
