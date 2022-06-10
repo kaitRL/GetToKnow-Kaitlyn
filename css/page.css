@@ -37,7 +37,9 @@ body {
   background: #0A1612;
   min-height: calc(100vh - 40px);
   position: relative;
-  padding: 20px
+  padding: 20px;
+  overscroll-behavior: none;
+  height: 100vh;
 }
 
 body:after,
@@ -85,6 +87,18 @@ body:after, body:before {
   background: rgba(197, 193, 192, 1);
   overflow: hidden;
   transition: background 1s cubic-bezier(.165, .84, .44, 1)
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body,
@@ -147,9 +161,9 @@ h6,
 
 #rlc-navbar {
   overflow: hidden;
-  background-color: #0A1612;
+  background-color: rgba(26, 41, 48, 0.5);
   position: fixed;
-  top: 0;
+  top: 20px;
   left: 0;
   width: 100%;
   z-index: 50000;
