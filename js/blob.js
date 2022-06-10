@@ -60,7 +60,7 @@ function createBlob(options) {
   update()
 
   function update() {
-    console.log("UPDATE", ct++)
+    // console.log("UPDATE", ct++)
     path.setAttribute('d', cardinal(points, true, 1))
   }
 
